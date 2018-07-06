@@ -13,7 +13,7 @@ const state = {
   },
   // 保持状态的组件 (多个之间用','分隔)
   keepAlive: 'no-match',
-}
+};
 
 const mutations = {
   [STASH] (state, payload) {
