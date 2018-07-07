@@ -5,12 +5,10 @@ import App from './App';
 import router from './router';
 import store from './store';
 
-// import 'element-ui/lib/theme-chalk/index.css';
-// import './assets/style/index.scss';
 // 组件以及组件样式
-// import Element from 'element-ui';
-// import 'element-ui/lib/theme-chalk/index.css';
-// Vue.use(Element);
+import Element from 'element-ui';
+import '@/assets/style/index.scss';
+Vue.use(Element);
 
 Vue.config.productionTip = false;
 
